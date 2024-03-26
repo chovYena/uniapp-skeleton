@@ -21,4 +21,4 @@ dist
 *.sw?
 
 /.hbuilderx/
-
+.env
