@@ -38,6 +38,7 @@ export default defineConfig({
       extensions: ['vue'],
       dts: 'src/components.d.ts',
     }),
+    // 在uni 引入之前
     insertLoading(),
     // uni支持(兼容性写法，当type为module时，必须要这样写)
     (uniPlugin as any).default(),
